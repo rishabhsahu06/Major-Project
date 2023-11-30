@@ -125,10 +125,27 @@ li select {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 5rem;
+  
+}
+.card-container h3{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .card {
   width: 350px;
+}
+
+
+.icon-div{
+background-image: url(/images/hexagon-green.svg);
+  background-repeat: no-repeat;
+  width: 3.5rem;
+  height:5.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: fill;
 }
 .service-plans {
   display: flex;
@@ -142,6 +159,13 @@ li select {
   border-radius: 10px;
 
   margin-top: 5rem;
+}
+.social-card-icon{
+  width: 350px;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 1.5rem;
+    color: white;
 }
 
 .service-card-ul {
@@ -284,41 +308,8 @@ button {
 i {
   align-items: center;
 }
-.service-card-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.service-img {
-  width: 50%;
-  align-items: center;
-  margin-top: 50px;
-}
-.service-img img {
-  width: 100%;
-}
-.service-header {
-  width: 50%;
-  margin-top: 2rem;
-  align-items: start;
-}
-.service-header h1 {
-  text-align: start;
-  margin-top: 80px;
-  margin-left: 11rem;
-  font-size: 25px;
-}
-.service-header h3 {
-  text-align: start;
-  margin-top: 52px;
-  margin-left: 11rem;
-}
-.service-header p {
-  text-align: start;
-  margin-top: 20px;
-  width: 50%;
-  margin-left: 11rem;
-}
+
+
 .testimonials h1 {
   text-align: center;
   margin-top: 60px;
@@ -336,6 +327,7 @@ i {
   align-items: center;
   margin-top: 40px;
   width: 850px;
+  text-align: center;
 }
 .testimonial-child-container {
   display: flex;
@@ -345,35 +337,83 @@ i {
   text-align: center;
 }
 .call-me-section {
-  background-color: blue;
+  background-color:#113448;
 
   height: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 25px;
+ 
 }
-.content-section {
-  width: 500px;
-  margin-top: 50px;
+
+.callme-content{
+  width: 50%;
+  
+
+
 }
-.input-section {
-  width: 500px;
-  margin-top: 50px;
+.callme-content-h1{
+  width: 50%;
+  font-weight: bold;
+  margin-top: 1rem;
+  color: white;
+ 
 }
-.input-section input {
-  padding: 1rem 10rem;
-  margin: 5px 5px;
-  align-items: start;
+.callme-para{
+  width: 50%;
+  color: white;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
 }
-.callme-btn {
-  margin-top: 5px;
+.callme-container{
+  display: flex;
+  justify-content: center;
+flex-wrap: wrap;
+margin-top: 4rem;
+margin-bottom: 4rem;
+padding-left: 3rem;
+ 
 }
-.callme-btn button {
-  padding: 1rem 13rem;
-  margin-left: 5px;
-  margin-bottom: 25px;
+ul{
+  display: flex;
+  flex-wrap:wrap ;
+  flex-direction: column;
+  
 }
+#para-p{
+  color: white;
+  margin-top: 0.5rem;
+}
+
+.callme-input{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 30%;
+  color:#113448;
+  margin-right: 4rem;
+
+}
+.callme-input input{
+  padding: 1rem 8px;
+  margin-top: 1rem;
+  background-color: #39728f;
+  border: #39728f;
+  border-radius: 5px;
+  color: white;
+}
+.callme-input select {
+  margin-top: 1rem;
+  padding: 1rem 8px;
+  background-color: #39728f;
+  color: white;
+}
+option{
+  color: black;
+
+}
+
 .btn {
   padding: 1rem 2rem;
 }
@@ -405,6 +445,26 @@ i {
   gap: 2rem;
   margin-top: 5rem;
 }
+#icon-div-i{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.team-para{
+  text-align: center;
+  margin-top: 1rem;
+}
+.team-header{
+  text-align: center;
+  margin-top: 1rem;
+}
+.icon-img {
+ display: flex;
+ justify-content: center;
+
+}
+
+
 .about-img img {
   width: 450px;
   height: 350px;
@@ -437,8 +497,8 @@ i {
 .contact-section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-top: 5rem;
+  justify-content:center;
+  gap: 5rem;
 }
 .contact-content {
   margin-top: 3rem;
@@ -449,6 +509,7 @@ i {
 }
 .contact-content h1 {
   margin-top: 1rem;
+
 }
 .contact-phone {
   display: flex;
@@ -461,16 +522,240 @@ i {
 .contact-phone a {
   text-decoration: none;
 }
-footer {
+
+.footer-container{
   background-color: #113448;
-  width: 100%;
-  height: 300px;
+  height:300px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+  color: white;
+  
+ 
+
 }
-.footer-container {
+.footer-1{
+  width: 40%;
+ margin-top: 4rem;
+ 
+
+}
+#footer-h3{
+  margin-top: 1rem;
+  font-weight: bold;
+
+}
+#footer-p{
+  color:#dfe5ec;
+  margin-top: 0.5rem;
+  text-align: start;
+}
+
+.footer-tools{
+  margin-top: 4rem;
+  
+}
+.footer-partners{
+  margin-top: 4rem;
+}
+.footer-links{
+  margin-top: 4rem;
+}
+.img-icon {
+  width: 3rem;
+  height: 5rem;
+  position: relative;
+  
+
+}
+#img-f{
+  
+ 
+  position: absolute;
+  bottom:10rem;
+  left:-3.5rem;
+  color: black;
+  font-size: 8rem;
+  
+}
+.social-icons{
+  display: flex;
+ flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: start;
+  margin-top: 1rem;
+}
+.icon{
+ 
+  text-align: center;
+}
+.location{
+  color:#484a46;
+}
+.accordian-icon{
+  font-size: 2rem;
+  color: #14bf98;
+}
+.circle-numbering{
+  display: inline-block;
+    width: 2.25rem;
+    height: 2.25rem;
+   
+    border: 0.125rem solid #14bf98;
+    border-radius: 50%;
+    background-color: #14bf98;
+    color: #fff;
+    font: 700 1rem/2.125rem "Montserrat",sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    
+    margin-top: 1rem;
+}
+.accordian-container{
+  display: flex;
+  justify-content: space-between;
+}
+.accordian-img{
+  width: 50%;
+  margin-top: 4rem;
+
+}
+.accordian-img img{
+  width: 100%;
+  object-fit: cover;
+  
+}
+.accordian-header{
+  width: 50%;
+  margin-top: 4rem;
+  margin-left: 5rem;
+
+}
+.accordian-h1 {
+ font-size: 1rem;
+}
+
+.accordian-title{
+  
+  display: inline-block;
+  width: 70%;
+  margin-top: 0.225rem;
+  margin-bottom: 0.25rem;
+  color: #484a46;
+  font: 700 1.25rem/1.75rem "Montserrat",sans-serif;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.accordian-text{
+  width: 50%;
+  margin-top: 6rem;
+}
+.accordian-text h1 {
+  text-align: center;
+ 
+}
+.accordian-text p {
+  align-items: start;
+  margin-left: 11.5rem;
+  margin-top: 1rem;
+}
+.progress-bar-one{
+  width: 80%;
+  background-color: #14bf98;
+  padding: 10px 5px;
+  margin-top: 10px;
+
+}
+.bar1{
+  text-align: center;
+  margin-right: 8.5rem;
+  margin-top: 1rem;
+ 
+}
+.progress-bar-card{
+  justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  margin-left: 11.5rem;
 }
-.footer-container p {
+.progress-bar-two{
+  width: 60%;
+  background-color: #14bf98;
+  padding: 10px 5px;
+  margin-top: 10px;
+
+
+}
+.progress-bar-three{
+  width: 70%;
+  background-color: #14bf98;
+  padding: 10px 5px;
+  margin-top: 10px;
+
+}
+.bar1 h4{
+  font-weight: 100;
+  color:black;
+}
+.testimonial-card{
+  width: 20%;
+}
+.test-img{
+  width: 50%;
+  border-radius: 50%;
+  align-items: center;
+}
+.test-para{
   text-align: center;
+  
+}
+.test-auth{
+  margin-top: 1rem;
+  text-align: center;
+
+}
+.testimonials-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.input-container{
+margin-right: 2rem;
+}
+.input-section input{
+  margin-top: 2rem;
+  
+  padding: 15px 15px;
+  width: 500px
+ 
+  
+}
+.btn-submit{
+  width: 500px;
+  margin-top: 1rem;
+}
+textarea{
+  margin-top: 2rem;
+}
+.img-div{
+  background-image: url(/images/hexagon-green.svg);
+  background-repeat: no-repeat;
+  width: 6rem;
+  height:5.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: fill;
+}
+.card-icon{
+  font-size: 2rem;
+  color: white;
+}
+span{
+  color: white;
 }
